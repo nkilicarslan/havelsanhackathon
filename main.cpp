@@ -440,7 +440,7 @@ int main() {
                             for (int k = 0; k < stations[j].time.size(); ++k) {
                                 if(abs(varis_zamani  - stations[j].time[k]) < 20 ){
                                     keep_all_hizli_tren[i].time += 1;
-                                    cout << "Hiz Tren " << i << " waited at " << instant << endl;
+                                    //cout << "Hiz Tren " << i << " waited at " << instant << endl;
                                     int index_instant;
                                     for (int l = 0; l < stations.size(); ++l) {
                                         if(stations[l].name == instant){
